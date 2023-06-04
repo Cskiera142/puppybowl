@@ -6,15 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="script.js"></script>
     <link rel="stylesheet" href="styles.css" />
-    <title>PuppyBowl</title>
+    <title>THE Puppy Bowl</title>
   </head>
   <body>
-    <!-- form to add new players -->
-    <div id="new-player-form"></div>
+    <div class="title">
+      <h1>Puppy Bowl</h1>
+    </div>
+    <div>
+      <div id="title-bar">
+        <div id="roster">
+          <h2>Roster</h2>
+          <div id="roster-list"></div>
+        </div>
+        <!-- Form to add new players -->
+        <div id="player-card">
+          <div id="selected-player-content"></div>
+        </div>
+      </div>
+    </div>
 
-    <!-- container for all players -->
-    <div id="all-players-container"></div>
-
-    <!-- import JavaScript -->
+    <div id="cards">
+      <h3 class="h3">Pick 5</h3>
+      <h3 class="h3">Click for more info!</h3>
+    </div>
+    <!-- Players container -->
   </body>
 </html>
