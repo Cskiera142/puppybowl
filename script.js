@@ -82,7 +82,7 @@ const createCards = (puppy) => {
   return playerCard;
 };
 
-function pickPuppy(puppy) {
+const pickPuppy = (puppy) => {
   let html = `
 <div class="selected-pup-display">
     <img id="pup-selected-img" src="${puppy.imageUrl}" />
@@ -113,7 +113,7 @@ function pickPuppy(puppy) {
     };
   }
   selectedPlayerElement.appendChild(button);
-}
+};
 
 const addToRoster = (puppy) => {
   //onclick add to roster button - shoves to roster section
